@@ -18,15 +18,9 @@ limitations under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>7</version>
-	</parent>
-  
-	<groupId>com.ecwid</groupId>
+	<groupId>com.vintank</groupId>
 	<artifactId>ecwid-mailchimp</artifactId>
-	<version>2.0.1.1-SNAPSHOT</version>
+	<version>2.0.1.1</version>
 	<packaging>jar</packaging>
 
 	<name>MailChimp API Wrapper</name>
@@ -211,7 +205,7 @@ limitations under the License.
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>16.0.1</version>
+			<version>17.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
